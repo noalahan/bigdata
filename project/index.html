@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Blankets</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.png" type="image/png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  </head>
+  <body>
+
+    <div id="center">
+      <!-- country drop down -->
+      <label>Select a country</label>
+      <select name="country" id="country">
+        <option value="" disabled selected>Country</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Antarctica">Antarctica</option>
+        <option value="Canada">Canada</option>
+        <option value="Chad">Chad</option>
+        <option value="DRC">Democratic Republic of Congo</option>
+        <option value="Egypt">Egypt</option>
+        <option value="Japan">Japan</option>
+        <option value="Poland">Poland</option>
+        <option value="Somalia">Somalia</option>
+        <option value="USA">California, USA</option>
+      </select>
+      </br>
+      <!-- range drop down -->
+      <label>Select a mode</label>
+      <select name="mode" id="mode">
+        <option value="" disabled selected>Mode</option>
+        <option value="min">Daily Minimum</option>
+        <option value="max">Daily Maximum</option>
+        <option value="diff">Min/Max Difference</option>
+      </select>
+      </br>
+      <!-- frame drop down -->
+      <label>Select a global range</label>
+      <select name="range" id="range">
+        <option value="" disabled selected>Range</option>
+        <option value="10">Global</option>
+        <option value="0">Afghanistan</option>
+        <option value="1">Antarctica</option>
+        <option value="2">Canada</option>
+        <option value="3">Chad</option>
+        <option value="4">Democratic Republic of Congo</option>
+        <option value="5">Egypt</option>
+        <option value="6">Japan</option>
+        <option value="7">Poland</option>
+        <option value="8">Somalia</option>
+        <option value="9">California, USA</option>
+      </select>
+    </div>
+
+    <div id="flex">
+      <label>Afghanistan</label>
+      <label>Antarctica</label>
+      <label>Canada</label>
+      <label>Chad</label>
+      <label>Democratic Republic of Congo</label>
+      <label>Egypt</label>
+      <label>Japan</label>
+      <label>Poland</label>
+      <label>Somalia</label>
+      <label>California, USA</label>
+    </div>
+
+    <div id="my_dataviz"></div>
+    <img src="img/knit12.png" id="knit12"/>
+    <img src="img/knit10.png" id="knit10"/>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
