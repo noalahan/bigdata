@@ -8,10 +8,7 @@ The data visualisation will be in the form of a digital "weather blanket" which 
   
 A weather blanket is a long-term project popular in crochet and knitting communities in which the crafter adds one new row to the blanket every day over the course of a year, alternating the color of the current row based on that day's temperature. The end result produces a full length blanket with a variety of colors that creates a visual way to see the year's temperature changes ([Bollanos, 2024]). Some examples (sourced from [Pinterest]):
 
-<img src="img/pin1.png" height="200" alt="Pinterest Fig 1">
-<img src="img/pin2.png" height="200" alt="Pinterest Fig 2">
-<img src="img/pin3.png" height="200" alt="Pinterest Fig 3">
-<img src="img/pin4.png" height="200" alt="Pinterest Fig 4">
+<img src="img/pin1.png" height="200" alt="Pinterest Fig 1"><img src="img/pin2.png" height="200" alt="Pinterest Fig 2"><img src="img/pin3.png" height="200" alt="Pinterest Fig 3"><img src="img/pin4.png" height="200" alt="Pinterest Fig 4">
 
 Instead of a row representing a day and the blanket representing a year, in this project the data - and therefore the blanket - contains 80 years worth of weather information. Each column represents a year, going from 1940 on the left-most column to 2020 on the right. Each year will be seperated into its 365 days (366 for leap years), from January 1st on top to December 31st on the bottom of the page.
 
